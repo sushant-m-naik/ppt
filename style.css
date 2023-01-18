@@ -1,0 +1,15 @@
+/* The animation code */
+@keyframes example {
+    0% {color: red;}
+    50% {color: rgb(245, 152, 243);}
+    100% {color: red;}
+  }
+  
+  /* The element to apply the animation to */
+#pop {
+font-size: xx-large;
+   color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
